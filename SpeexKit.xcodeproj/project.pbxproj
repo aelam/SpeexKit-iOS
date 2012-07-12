@@ -7,22 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		940C1B6515AEDE3B0066D695 /* config_types.h in Headers */ = {isa = PBXBuildFile; fileRef = 940C1B0115AEDE3B0066D695 /* config_types.h */; };
-		940C1B6615AEDE3B0066D695 /* ogg.h in Headers */ = {isa = PBXBuildFile; fileRef = 940C1B0215AEDE3B0066D695 /* ogg.h */; };
-		940C1B6715AEDE3B0066D695 /* os_types.h in Headers */ = {isa = PBXBuildFile; fileRef = 940C1B0315AEDE3B0066D695 /* os_types.h */; };
 		940C1B6815AEDE3B0066D695 /* libogg.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 940C1B0515AEDE3B0066D695 /* libogg.a */; };
-		940C1B6915AEDE3B0066D695 /* speex.h in Headers */ = {isa = PBXBuildFile; fileRef = 940C1B5815AEDE3B0066D695 /* speex.h */; };
-		940C1B6A15AEDE3B0066D695 /* speex_bits.h in Headers */ = {isa = PBXBuildFile; fileRef = 940C1B5915AEDE3B0066D695 /* speex_bits.h */; };
-		940C1B6B15AEDE3B0066D695 /* speex_buffer.h in Headers */ = {isa = PBXBuildFile; fileRef = 940C1B5A15AEDE3B0066D695 /* speex_buffer.h */; };
-		940C1B6C15AEDE3B0066D695 /* speex_callbacks.h in Headers */ = {isa = PBXBuildFile; fileRef = 940C1B5B15AEDE3B0066D695 /* speex_callbacks.h */; };
-		940C1B6D15AEDE3B0066D695 /* speex_config_types.h in Headers */ = {isa = PBXBuildFile; fileRef = 940C1B5C15AEDE3B0066D695 /* speex_config_types.h */; };
-		940C1B6E15AEDE3B0066D695 /* speex_echo.h in Headers */ = {isa = PBXBuildFile; fileRef = 940C1B5D15AEDE3B0066D695 /* speex_echo.h */; };
-		940C1B6F15AEDE3B0066D695 /* speex_header.h in Headers */ = {isa = PBXBuildFile; fileRef = 940C1B5E15AEDE3B0066D695 /* speex_header.h */; };
-		940C1B7015AEDE3B0066D695 /* speex_jitter.h in Headers */ = {isa = PBXBuildFile; fileRef = 940C1B5F15AEDE3B0066D695 /* speex_jitter.h */; };
-		940C1B7115AEDE3B0066D695 /* speex_preprocess.h in Headers */ = {isa = PBXBuildFile; fileRef = 940C1B6015AEDE3B0066D695 /* speex_preprocess.h */; };
-		940C1B7215AEDE3B0066D695 /* speex_resampler.h in Headers */ = {isa = PBXBuildFile; fileRef = 940C1B6115AEDE3B0066D695 /* speex_resampler.h */; };
-		940C1B7315AEDE3B0066D695 /* speex_stereo.h in Headers */ = {isa = PBXBuildFile; fileRef = 940C1B6215AEDE3B0066D695 /* speex_stereo.h */; };
-		940C1B7415AEDE3B0066D695 /* speex_types.h in Headers */ = {isa = PBXBuildFile; fileRef = 940C1B6315AEDE3B0066D695 /* speex_types.h */; };
 		940C1B7515AEDE3B0066D695 /* libspeex.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 940C1B6415AEDE3B0066D695 /* libspeex.a */; };
 		940DC27A15A82C4900240B6D /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 940DC27915A82C4900240B6D /* UIKit.framework */; };
 		940DC27B15A82C4900240B6D /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 943F488115A681B5008AA02A /* Foundation.framework */; };
@@ -465,7 +450,6 @@
 		943F488315A681B5008AA02A /* SpeexKit */ = {
 			isa = PBXGroup;
 			children = (
-				943F4CDF15A6BFF4008AA02A /* Linked Framework */,
 				943F488615A681B5008AA02A /* SpeexKit.h */,
 				943F488715A681B5008AA02A /* SpeexKit.m */,
 				943F488415A681B5008AA02A /* Supporting Files */,
@@ -500,13 +484,6 @@
 			name = "Supporting Files";
 			sourceTree = "<group>";
 		};
-		943F4CDF15A6BFF4008AA02A /* Linked Framework */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			path = "Linked Framework";
-			sourceTree = "<group>";
-		};
 /* End PBXGroup section */
 
 /* Begin PBXHeadersBuildPhase section */
@@ -515,21 +492,6 @@
 			buildActionMask = 2147483647;
 			files = (
 				940DC29615A82D3700240B6D /* SpeexKit.h in Headers */,
-				940C1B6515AEDE3B0066D695 /* config_types.h in Headers */,
-				940C1B6615AEDE3B0066D695 /* ogg.h in Headers */,
-				940C1B6715AEDE3B0066D695 /* os_types.h in Headers */,
-				940C1B6915AEDE3B0066D695 /* speex.h in Headers */,
-				940C1B6A15AEDE3B0066D695 /* speex_bits.h in Headers */,
-				940C1B6B15AEDE3B0066D695 /* speex_buffer.h in Headers */,
-				940C1B6C15AEDE3B0066D695 /* speex_callbacks.h in Headers */,
-				940C1B6D15AEDE3B0066D695 /* speex_config_types.h in Headers */,
-				940C1B6E15AEDE3B0066D695 /* speex_echo.h in Headers */,
-				940C1B6F15AEDE3B0066D695 /* speex_header.h in Headers */,
-				940C1B7015AEDE3B0066D695 /* speex_jitter.h in Headers */,
-				940C1B7115AEDE3B0066D695 /* speex_preprocess.h in Headers */,
-				940C1B7215AEDE3B0066D695 /* speex_resampler.h in Headers */,
-				940C1B7315AEDE3B0066D695 /* speex_stereo.h in Headers */,
-				940C1B7415AEDE3B0066D695 /* speex_types.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -771,6 +733,10 @@
 				GCC_WARN_ABOUT_RETURN_TYPE = YES;
 				GCC_WARN_UNINITIALIZED_AUTOS = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
+				HEADER_SEARCH_PATHS = (
+					"\"$(SRCROOT)/SpeexKit/Linked Framework/libogg/include\"/**",
+					"\"$(SRCROOT)/SpeexKit/Linked Framework/libspeex/include\"/**",
+				);
 				IPHONEOS_DEPLOYMENT_TARGET = 5.1;
 				SDKROOT = iphoneos;
 			};
@@ -787,6 +753,10 @@
 				GCC_WARN_ABOUT_RETURN_TYPE = YES;
 				GCC_WARN_UNINITIALIZED_AUTOS = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
+				HEADER_SEARCH_PATHS = (
+					"\"$(SRCROOT)/SpeexKit/Linked Framework/libogg/include\"/**",
+					"\"$(SRCROOT)/SpeexKit/Linked Framework/libspeex/include\"/**",
+				);
 				IPHONEOS_DEPLOYMENT_TARGET = 5.1;
 				SDKROOT = iphoneos;
 				VALIDATE_PRODUCT = YES;
@@ -801,13 +771,11 @@
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "SpeexKit/SpeexKit-Prefix.pch";
 				HEADER_SEARCH_PATHS = (
-					"\"$(SRCROOT)/SpeexKit/speex-1.2rc1/include/\"",
-					"\"$(SRCROOT)/build/SpeexKit/Build\"/**",
+					"\"$(SRCROOT)/SpeexKit/Linked Framework/libogg/include\"",
+					"\"$(SRCROOT)/SpeexKit/Linked Framework/libspeex/include\"",
 				);
 				LIBRARY_SEARCH_PATHS = (
-					"$(inherited)",
 					"\"$(SRCROOT)/SpeexKit/Linked Framework/libogg\"",
-					"\"$(SRCROOT)/SpeexKit/Linked Framework/libogg/lib\"",
 					"\"$(SRCROOT)/SpeexKit/Linked Framework/libspeex\"",
 				);
 				OTHER_LDFLAGS = "-ObjC";
@@ -825,13 +793,11 @@
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "SpeexKit/SpeexKit-Prefix.pch";
 				HEADER_SEARCH_PATHS = (
-					"\"$(SRCROOT)/SpeexKit/speex-1.2rc1/include/\"",
-					"\"$(SRCROOT)/build/SpeexKit/Build\"/**",
+					"\"$(SRCROOT)/SpeexKit/Linked Framework/libogg/include\"",
+					"\"$(SRCROOT)/SpeexKit/Linked Framework/libspeex/include\"",
 				);
 				LIBRARY_SEARCH_PATHS = (
-					"$(inherited)",
 					"\"$(SRCROOT)/SpeexKit/Linked Framework/libogg\"",
-					"\"$(SRCROOT)/SpeexKit/Linked Framework/libogg/lib\"",
 					"\"$(SRCROOT)/SpeexKit/Linked Framework/libspeex\"",
 				);
 				OTHER_LDFLAGS = "-ObjC";
