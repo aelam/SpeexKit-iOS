@@ -8,6 +8,12 @@
 
 #import <Foundation/Foundation.h>
 
+#include <speex/speex.h>
+#include <ogg/ogg.h>
+#include <speex/speex_header.h>
+#include <speex/speex_stereo.h>
+#include <speex/speex_preprocess.h>
+
 @interface SpeexKit : NSObject
 
 + (void)testSpeekKit;
