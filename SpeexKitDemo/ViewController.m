@@ -12,11 +12,6 @@
 #define MAX_FRAME_BYTES 2000
 #define MAX_FRAME_SIZE 2000
 
-#ifdef HAVE_CONFIG_H
-#include "config.h"
-#endif
-
-#include <speex/speex_preprocess.h>
 #include <stdio.h>
 
 #define NN 160
@@ -66,8 +61,8 @@ int test_main2()
 - (void)viewDidLoad
 {
     [super viewDidLoad];
-	// Do any additional setup after loading the view, typically from a nib.
-    [SpeexKit testSpeekKit];
+    NSLog(@"%@",[SpeexDecoder description]);
+    
 }
 
 - (void)viewDidUnload

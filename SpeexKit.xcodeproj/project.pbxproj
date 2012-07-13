@@ -16,16 +16,14 @@
 		940DC28C15A82C4900240B6D /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 940DC28B15A82C4900240B6D /* ViewController.m */; };
 		940DC28F15A82C4900240B6D /* ViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 940DC28D15A82C4900240B6D /* ViewController.xib */; };
 		940DC29515A82CA800240B6D /* libSpeexKit.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 943F487E15A681B5008AA02A /* libSpeexKit.a */; };
-		940DC29615A82D3700240B6D /* SpeexKit.h in Headers */ = {isa = PBXBuildFile; fileRef = 943F488615A681B5008AA02A /* SpeexKit.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		943F488815A681B5008AA02A /* SpeexKit.m in Sources */ = {isa = PBXBuildFile; fileRef = 943F488715A681B5008AA02A /* SpeexKit.m */; };
 		943F489015A681B5008AA02A /* SenTestingKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 943F488F15A681B5008AA02A /* SenTestingKit.framework */; };
 		943F489315A681B5008AA02A /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 943F488115A681B5008AA02A /* Foundation.framework */; };
 		943F489615A681B5008AA02A /* libSpeexKit.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 943F487E15A681B5008AA02A /* libSpeexKit.a */; };
 		943F489C15A681B6008AA02A /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 943F489A15A681B6008AA02A /* InfoPlist.strings */; };
 		943F489F15A681B6008AA02A /* SpeexKitTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 943F489E15A681B6008AA02A /* SpeexKitTests.m */; };
-		9441FD9E15AFEE4F00CEA6B3 /* config_types.h in Headers */ = {isa = PBXBuildFile; fileRef = 9441FD3A15AFEE4F00CEA6B3 /* config_types.h */; };
-		9441FD9F15AFEE4F00CEA6B3 /* ogg.h in Headers */ = {isa = PBXBuildFile; fileRef = 9441FD3B15AFEE4F00CEA6B3 /* ogg.h */; };
-		9441FDA015AFEE4F00CEA6B3 /* os_types.h in Headers */ = {isa = PBXBuildFile; fileRef = 9441FD3C15AFEE4F00CEA6B3 /* os_types.h */; };
+		9441FD9E15AFEE4F00CEA6B3 /* config_types.h in Headers */ = {isa = PBXBuildFile; fileRef = 9441FD3A15AFEE4F00CEA6B3 /* config_types.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		9441FD9F15AFEE4F00CEA6B3 /* ogg.h in Headers */ = {isa = PBXBuildFile; fileRef = 9441FD3B15AFEE4F00CEA6B3 /* ogg.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		9441FDA015AFEE4F00CEA6B3 /* os_types.h in Headers */ = {isa = PBXBuildFile; fileRef = 9441FD3C15AFEE4F00CEA6B3 /* os_types.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		9441FDA115AFEE4F00CEA6B3 /* libogg.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 9441FD3D15AFEE4F00CEA6B3 /* libogg.a */; };
 		9441FDA215AFEE4F00CEA6B3 /* libogg.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 9441FD3D15AFEE4F00CEA6B3 /* libogg.a */; };
 		9441FDA315AFEE4F00CEA6B3 /* ogg.m4 in Resources */ = {isa = PBXBuildFile; fileRef = 9441FD4015AFEE4F00CEA6B3 /* ogg.m4 */; };
@@ -102,22 +100,27 @@
 		9441FDEA15AFEE4F00CEA6B3 /* vorbisword2.png in Resources */ = {isa = PBXBuildFile; fileRef = 9441FD8A15AFEE4F00CEA6B3 /* vorbisword2.png */; };
 		9441FDEB15AFEE4F00CEA6B3 /* white-ogg.png in Resources */ = {isa = PBXBuildFile; fileRef = 9441FD8B15AFEE4F00CEA6B3 /* white-ogg.png */; };
 		9441FDEC15AFEE4F00CEA6B3 /* white-xifish.png in Resources */ = {isa = PBXBuildFile; fileRef = 9441FD8C15AFEE4F00CEA6B3 /* white-xifish.png */; };
-		9441FDED15AFEE4F00CEA6B3 /* speex.h in Headers */ = {isa = PBXBuildFile; fileRef = 9441FD9015AFEE4F00CEA6B3 /* speex.h */; };
-		9441FDEE15AFEE4F00CEA6B3 /* speex_bits.h in Headers */ = {isa = PBXBuildFile; fileRef = 9441FD9115AFEE4F00CEA6B3 /* speex_bits.h */; };
-		9441FDEF15AFEE4F00CEA6B3 /* speex_buffer.h in Headers */ = {isa = PBXBuildFile; fileRef = 9441FD9215AFEE4F00CEA6B3 /* speex_buffer.h */; };
-		9441FDF015AFEE4F00CEA6B3 /* speex_callbacks.h in Headers */ = {isa = PBXBuildFile; fileRef = 9441FD9315AFEE4F00CEA6B3 /* speex_callbacks.h */; };
-		9441FDF115AFEE4F00CEA6B3 /* speex_config_types.h in Headers */ = {isa = PBXBuildFile; fileRef = 9441FD9415AFEE4F00CEA6B3 /* speex_config_types.h */; };
-		9441FDF215AFEE4F00CEA6B3 /* speex_echo.h in Headers */ = {isa = PBXBuildFile; fileRef = 9441FD9515AFEE4F00CEA6B3 /* speex_echo.h */; };
-		9441FDF315AFEE4F00CEA6B3 /* speex_header.h in Headers */ = {isa = PBXBuildFile; fileRef = 9441FD9615AFEE4F00CEA6B3 /* speex_header.h */; };
-		9441FDF415AFEE4F00CEA6B3 /* speex_jitter.h in Headers */ = {isa = PBXBuildFile; fileRef = 9441FD9715AFEE4F00CEA6B3 /* speex_jitter.h */; };
-		9441FDF515AFEE4F00CEA6B3 /* speex_preprocess.h in Headers */ = {isa = PBXBuildFile; fileRef = 9441FD9815AFEE4F00CEA6B3 /* speex_preprocess.h */; };
-		9441FDF615AFEE4F00CEA6B3 /* speex_resampler.h in Headers */ = {isa = PBXBuildFile; fileRef = 9441FD9915AFEE4F00CEA6B3 /* speex_resampler.h */; };
-		9441FDF715AFEE4F00CEA6B3 /* speex_stereo.h in Headers */ = {isa = PBXBuildFile; fileRef = 9441FD9A15AFEE4F00CEA6B3 /* speex_stereo.h */; };
-		9441FDF815AFEE4F00CEA6B3 /* speex_types.h in Headers */ = {isa = PBXBuildFile; fileRef = 9441FD9B15AFEE4F00CEA6B3 /* speex_types.h */; };
+		9441FDED15AFEE4F00CEA6B3 /* speex.h in Headers */ = {isa = PBXBuildFile; fileRef = 9441FD9015AFEE4F00CEA6B3 /* speex.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		9441FDEE15AFEE4F00CEA6B3 /* speex_bits.h in Headers */ = {isa = PBXBuildFile; fileRef = 9441FD9115AFEE4F00CEA6B3 /* speex_bits.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		9441FDEF15AFEE4F00CEA6B3 /* speex_buffer.h in Headers */ = {isa = PBXBuildFile; fileRef = 9441FD9215AFEE4F00CEA6B3 /* speex_buffer.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		9441FDF015AFEE4F00CEA6B3 /* speex_callbacks.h in Headers */ = {isa = PBXBuildFile; fileRef = 9441FD9315AFEE4F00CEA6B3 /* speex_callbacks.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		9441FDF115AFEE4F00CEA6B3 /* speex_config_types.h in Headers */ = {isa = PBXBuildFile; fileRef = 9441FD9415AFEE4F00CEA6B3 /* speex_config_types.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		9441FDF215AFEE4F00CEA6B3 /* speex_echo.h in Headers */ = {isa = PBXBuildFile; fileRef = 9441FD9515AFEE4F00CEA6B3 /* speex_echo.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		9441FDF315AFEE4F00CEA6B3 /* speex_header.h in Headers */ = {isa = PBXBuildFile; fileRef = 9441FD9615AFEE4F00CEA6B3 /* speex_header.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		9441FDF415AFEE4F00CEA6B3 /* speex_jitter.h in Headers */ = {isa = PBXBuildFile; fileRef = 9441FD9715AFEE4F00CEA6B3 /* speex_jitter.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		9441FDF515AFEE4F00CEA6B3 /* speex_preprocess.h in Headers */ = {isa = PBXBuildFile; fileRef = 9441FD9815AFEE4F00CEA6B3 /* speex_preprocess.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		9441FDF615AFEE4F00CEA6B3 /* speex_resampler.h in Headers */ = {isa = PBXBuildFile; fileRef = 9441FD9915AFEE4F00CEA6B3 /* speex_resampler.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		9441FDF715AFEE4F00CEA6B3 /* speex_stereo.h in Headers */ = {isa = PBXBuildFile; fileRef = 9441FD9A15AFEE4F00CEA6B3 /* speex_stereo.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		9441FDF815AFEE4F00CEA6B3 /* speex_types.h in Headers */ = {isa = PBXBuildFile; fileRef = 9441FD9B15AFEE4F00CEA6B3 /* speex_types.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		9441FDF915AFEE4F00CEA6B3 /* libspeex.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 9441FD9C15AFEE4F00CEA6B3 /* libspeex.a */; };
 		9441FDFA15AFEE4F00CEA6B3 /* libspeex.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 9441FD9C15AFEE4F00CEA6B3 /* libspeex.a */; };
 		9441FDFB15AFEE4F00CEA6B3 /* libspeexdsp.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 9441FD9D15AFEE4F00CEA6B3 /* libspeexdsp.a */; };
 		9441FDFC15AFEE4F00CEA6B3 /* libspeexdsp.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 9441FD9D15AFEE4F00CEA6B3 /* libspeexdsp.a */; };
+		9441FE2615B010DE00CEA6B3 /* SpeexDecoder.h in Headers */ = {isa = PBXBuildFile; fileRef = 9441FE2015B010DE00CEA6B3 /* SpeexDecoder.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		9441FE2715B010DE00CEA6B3 /* SpeexDecoder.m in Sources */ = {isa = PBXBuildFile; fileRef = 9441FE2115B010DE00CEA6B3 /* SpeexDecoder.m */; };
+		9441FE2815B010DE00CEA6B3 /* SpeexEncoder.h in Headers */ = {isa = PBXBuildFile; fileRef = 9441FE2215B010DE00CEA6B3 /* SpeexEncoder.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		9441FE2915B010DE00CEA6B3 /* SpeexEncoder.m in Sources */ = {isa = PBXBuildFile; fileRef = 9441FE2315B010DE00CEA6B3 /* SpeexEncoder.m */; };
+		9441FE2A15B010DE00CEA6B3 /* SpeexKit.h in Headers */ = {isa = PBXBuildFile; fileRef = 9441FE2415B010DE00CEA6B3 /* SpeexKit.h */; settings = {ATTRIBUTES = (Public, ); }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -153,8 +156,6 @@
 		943F487E15A681B5008AA02A /* libSpeexKit.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libSpeexKit.a; sourceTree = BUILT_PRODUCTS_DIR; };
 		943F488115A681B5008AA02A /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		943F488515A681B5008AA02A /* SpeexKit-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "SpeexKit-Prefix.pch"; sourceTree = "<group>"; };
-		943F488615A681B5008AA02A /* SpeexKit.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SpeexKit.h; sourceTree = "<group>"; };
-		943F488715A681B5008AA02A /* SpeexKit.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SpeexKit.m; sourceTree = "<group>"; };
 		943F488E15A681B5008AA02A /* SpeexKitTests.octest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SpeexKitTests.octest; sourceTree = BUILT_PRODUCTS_DIR; };
 		943F488F15A681B5008AA02A /* SenTestingKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SenTestingKit.framework; path = Library/Frameworks/SenTestingKit.framework; sourceTree = DEVELOPER_DIR; };
 		943F489915A681B6008AA02A /* SpeexKitTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "SpeexKitTests-Info.plist"; sourceTree = "<group>"; };
@@ -253,6 +254,11 @@
 		9441FD9B15AFEE4F00CEA6B3 /* speex_types.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = speex_types.h; sourceTree = "<group>"; };
 		9441FD9C15AFEE4F00CEA6B3 /* libspeex.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = libspeex.a; sourceTree = "<group>"; };
 		9441FD9D15AFEE4F00CEA6B3 /* libspeexdsp.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = libspeexdsp.a; sourceTree = "<group>"; };
+		9441FE2015B010DE00CEA6B3 /* SpeexDecoder.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SpeexDecoder.h; sourceTree = "<group>"; };
+		9441FE2115B010DE00CEA6B3 /* SpeexDecoder.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SpeexDecoder.m; sourceTree = "<group>"; };
+		9441FE2215B010DE00CEA6B3 /* SpeexEncoder.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SpeexEncoder.h; sourceTree = "<group>"; };
+		9441FE2315B010DE00CEA6B3 /* SpeexEncoder.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SpeexEncoder.m; sourceTree = "<group>"; };
+		9441FE2415B010DE00CEA6B3 /* SpeexKit.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SpeexKit.h; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -353,8 +359,7 @@
 		943F488315A681B5008AA02A /* SpeexKit */ = {
 			isa = PBXGroup;
 			children = (
-				943F488615A681B5008AA02A /* SpeexKit.h */,
-				943F488715A681B5008AA02A /* SpeexKit.m */,
+				9441FE1F15B010DE00CEA6B3 /* SpeexKit */,
 				943F488415A681B5008AA02A /* Supporting Files */,
 			);
 			path = SpeexKit;
@@ -575,6 +580,18 @@
 			path = speex;
 			sourceTree = "<group>";
 		};
+		9441FE1F15B010DE00CEA6B3 /* SpeexKit */ = {
+			isa = PBXGroup;
+			children = (
+				9441FE2015B010DE00CEA6B3 /* SpeexDecoder.h */,
+				9441FE2115B010DE00CEA6B3 /* SpeexDecoder.m */,
+				9441FE2215B010DE00CEA6B3 /* SpeexEncoder.h */,
+				9441FE2315B010DE00CEA6B3 /* SpeexEncoder.m */,
+				9441FE2415B010DE00CEA6B3 /* SpeexKit.h */,
+			);
+			path = SpeexKit;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXHeadersBuildPhase section */
@@ -582,7 +599,6 @@
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				940DC29615A82D3700240B6D /* SpeexKit.h in Headers */,
 				9441FD9E15AFEE4F00CEA6B3 /* config_types.h in Headers */,
 				9441FD9F15AFEE4F00CEA6B3 /* ogg.h in Headers */,
 				9441FDA015AFEE4F00CEA6B3 /* os_types.h in Headers */,
@@ -598,6 +614,9 @@
 				9441FDF615AFEE4F00CEA6B3 /* speex_resampler.h in Headers */,
 				9441FDF715AFEE4F00CEA6B3 /* speex_stereo.h in Headers */,
 				9441FDF815AFEE4F00CEA6B3 /* speex_types.h in Headers */,
+				9441FE2615B010DE00CEA6B3 /* SpeexDecoder.h in Headers */,
+				9441FE2815B010DE00CEA6B3 /* SpeexEncoder.h in Headers */,
+				9441FE2A15B010DE00CEA6B3 /* SpeexKit.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -811,7 +830,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				943F488815A681B5008AA02A /* SpeexKit.m in Sources */,
+				9441FE2715B010DE00CEA6B3 /* SpeexDecoder.m in Sources */,
+				9441FE2915B010DE00CEA6B3 /* SpeexEncoder.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -972,6 +992,7 @@
 				HEADER_SEARCH_PATHS = (
 					"\"$(SRCROOT)/SpeexKit/Linked Framework/libogg/include\"",
 					"\"$(SRCROOT)/SpeexKit/Linked Framework/libspeex/include\"",
+					"\"$(SRCROOT)/SpeexKit/\"",
 				);
 				IPHONEOS_DEPLOYMENT_TARGET = 3.0;
 				LIBRARY_SEARCH_PATHS = (
@@ -997,6 +1018,7 @@
 				HEADER_SEARCH_PATHS = (
 					"\"$(SRCROOT)/SpeexKit/Linked Framework/libogg/include\"",
 					"\"$(SRCROOT)/SpeexKit/Linked Framework/libspeex/include\"",
+					"\"$(SRCROOT)/SpeexKit/\"",
 				);
 				IPHONEOS_DEPLOYMENT_TARGET = 3.0;
 				LIBRARY_SEARCH_PATHS = (
