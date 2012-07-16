@@ -13,5 +13,8 @@
 
 @interface SpeexEncoder : NSObject
 
++ (NSString *)version;
++ (NSString *)longVersion;
+
 
 @end

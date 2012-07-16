@@ -121,6 +121,16 @@
 		9441FE2815B010DE00CEA6B3 /* SpeexEncoder.h in Headers */ = {isa = PBXBuildFile; fileRef = 9441FE2215B010DE00CEA6B3 /* SpeexEncoder.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		9441FE2915B010DE00CEA6B3 /* SpeexEncoder.m in Sources */ = {isa = PBXBuildFile; fileRef = 9441FE2315B010DE00CEA6B3 /* SpeexEncoder.m */; };
 		9441FE2A15B010DE00CEA6B3 /* SpeexKit.h in Headers */ = {isa = PBXBuildFile; fileRef = 9441FE2415B010DE00CEA6B3 /* SpeexKit.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		9441FE4315B3C53300CEA6B3 /* output.spx in Resources */ = {isa = PBXBuildFile; fileRef = 9441FE4215B3C53300CEA6B3 /* output.spx */; };
+		9441FE4515B3CEFB00CEA6B3 /* output.spx in Resources */ = {isa = PBXBuildFile; fileRef = 9441FE4215B3C53300CEA6B3 /* output.spx */; };
+		9441FE5015B3E10200CEA6B3 /* speexdec.c in Sources */ = {isa = PBXBuildFile; fileRef = 9441FE4E15B3E10200CEA6B3 /* speexdec.c */; };
+		9441FE5115B3E10200CEA6B3 /* speexenc.c in Sources */ = {isa = PBXBuildFile; fileRef = 9441FE4F15B3E10200CEA6B3 /* speexenc.c */; };
+		9441FE5615B3E47000CEA6B3 /* wav_io.c in Sources */ = {isa = PBXBuildFile; fileRef = 9441FE5215B3E46F00CEA6B3 /* wav_io.c */; };
+		9441FE5715B3E47000CEA6B3 /* wav_io.h in Headers */ = {isa = PBXBuildFile; fileRef = 9441FE5315B3E46F00CEA6B3 /* wav_io.h */; };
+		9441FE5815B3E47000CEA6B3 /* wave_out.c in Sources */ = {isa = PBXBuildFile; fileRef = 9441FE5415B3E47000CEA6B3 /* wave_out.c */; };
+		9441FE5915B3E47000CEA6B3 /* wave_out.h in Headers */ = {isa = PBXBuildFile; fileRef = 9441FE5515B3E47000CEA6B3 /* wave_out.h */; };
+		9441FE5C15B3E49300CEA6B3 /* skeleton.c in Sources */ = {isa = PBXBuildFile; fileRef = 9441FE5A15B3E49300CEA6B3 /* skeleton.c */; };
+		9441FE5D15B3E49300CEA6B3 /* skeleton.h in Headers */ = {isa = PBXBuildFile; fileRef = 9441FE5B15B3E49300CEA6B3 /* skeleton.h */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -259,6 +269,15 @@
 		9441FE2215B010DE00CEA6B3 /* SpeexEncoder.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SpeexEncoder.h; sourceTree = "<group>"; };
 		9441FE2315B010DE00CEA6B3 /* SpeexEncoder.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SpeexEncoder.m; sourceTree = "<group>"; };
 		9441FE2415B010DE00CEA6B3 /* SpeexKit.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SpeexKit.h; sourceTree = "<group>"; };
+		9441FE4215B3C53300CEA6B3 /* output.spx */ = {isa = PBXFileReference; lastKnownFileType = file; path = output.spx; sourceTree = "<group>"; };
+		9441FE4E15B3E10200CEA6B3 /* speexdec.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = speexdec.c; sourceTree = "<group>"; };
+		9441FE4F15B3E10200CEA6B3 /* speexenc.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = speexenc.c; sourceTree = "<group>"; };
+		9441FE5215B3E46F00CEA6B3 /* wav_io.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = wav_io.c; sourceTree = "<group>"; };
+		9441FE5315B3E46F00CEA6B3 /* wav_io.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = wav_io.h; sourceTree = "<group>"; };
+		9441FE5415B3E47000CEA6B3 /* wave_out.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = wave_out.c; sourceTree = "<group>"; };
+		9441FE5515B3E47000CEA6B3 /* wave_out.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = wave_out.h; sourceTree = "<group>"; };
+		9441FE5A15B3E49300CEA6B3 /* skeleton.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = skeleton.c; sourceTree = "<group>"; };
+		9441FE5B15B3E49300CEA6B3 /* skeleton.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = skeleton.h; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -368,6 +387,7 @@
 		943F488415A681B5008AA02A /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				9441FE4215B3C53300CEA6B3 /* output.spx */,
 				943F488515A681B5008AA02A /* SpeexKit-Prefix.pch */,
 			);
 			name = "Supporting Files";
@@ -583,6 +603,14 @@
 		9441FE1F15B010DE00CEA6B3 /* SpeexKit */ = {
 			isa = PBXGroup;
 			children = (
+				9441FE5A15B3E49300CEA6B3 /* skeleton.c */,
+				9441FE5B15B3E49300CEA6B3 /* skeleton.h */,
+				9441FE5215B3E46F00CEA6B3 /* wav_io.c */,
+				9441FE5315B3E46F00CEA6B3 /* wav_io.h */,
+				9441FE5415B3E47000CEA6B3 /* wave_out.c */,
+				9441FE5515B3E47000CEA6B3 /* wave_out.h */,
+				9441FE4E15B3E10200CEA6B3 /* speexdec.c */,
+				9441FE4F15B3E10200CEA6B3 /* speexenc.c */,
 				9441FE2015B010DE00CEA6B3 /* SpeexDecoder.h */,
 				9441FE2115B010DE00CEA6B3 /* SpeexDecoder.m */,
 				9441FE2215B010DE00CEA6B3 /* SpeexEncoder.h */,
@@ -617,6 +645,9 @@
 				9441FE2615B010DE00CEA6B3 /* SpeexDecoder.h in Headers */,
 				9441FE2815B010DE00CEA6B3 /* SpeexEncoder.h in Headers */,
 				9441FE2A15B010DE00CEA6B3 /* SpeexKit.h in Headers */,
+				9441FE5715B3E47000CEA6B3 /* wav_io.h in Headers */,
+				9441FE5915B3E47000CEA6B3 /* wave_out.h in Headers */,
+				9441FE5D15B3E49300CEA6B3 /* skeleton.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -786,6 +817,7 @@
 				9441FDEA15AFEE4F00CEA6B3 /* vorbisword2.png in Resources */,
 				9441FDEB15AFEE4F00CEA6B3 /* white-ogg.png in Resources */,
 				9441FDEC15AFEE4F00CEA6B3 /* white-xifish.png in Resources */,
+				9441FE4315B3C53300CEA6B3 /* output.spx in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -794,6 +826,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				943F489C15A681B6008AA02A /* InfoPlist.strings in Resources */,
+				9441FE4515B3CEFB00CEA6B3 /* output.spx in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -832,6 +865,11 @@
 			files = (
 				9441FE2715B010DE00CEA6B3 /* SpeexDecoder.m in Sources */,
 				9441FE2915B010DE00CEA6B3 /* SpeexEncoder.m in Sources */,
+				9441FE5015B3E10200CEA6B3 /* speexdec.c in Sources */,
+				9441FE5115B3E10200CEA6B3 /* speexenc.c in Sources */,
+				9441FE5615B3E47000CEA6B3 /* wav_io.c in Sources */,
+				9441FE5815B3E47000CEA6B3 /* wave_out.c in Sources */,
+				9441FE5C15B3E49300CEA6B3 /* skeleton.c in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

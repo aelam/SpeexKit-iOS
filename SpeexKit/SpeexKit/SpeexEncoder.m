@@ -8,6 +8,7 @@
 
 #import "SpeexEncoder.h"
 
-@implementation SpeexEncoder
+@implementation SpeexEncoder {
+}
 
 @end

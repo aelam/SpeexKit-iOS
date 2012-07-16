@@ -61,9 +61,34 @@ int test_main2()
 - (void)viewDidLoad
 {
     [super viewDidLoad];
-    NSLog(@"%@",[SpeexDecoder description]);
+    UIButton *button = [UIButton buttonWithType:UIButtonTypeRoundedRect];
+    button.frame = CGRectMake(100, 30, 100, 40);
+    [button setTitle:@"Decode" forState:UIControlStateNormal];
+    [self.view addSubview:button];
+    [button addTarget:self action:@selector(startDecode) forControlEvents:UIControlEventTouchUpInside];
+    
+    
+    [self test];
     
 }
+
+- (void)test {
+    NSLog(@"version : %@",[SpeexDecoder version]);
+    NSLog(@"longVersion : %@",[SpeexDecoder longVersion]);
+
+    
+}
+
+- (void)startDecode {
+    NSString *infilePath = [[NSBundle mainBundle] pathForResource:@"output" ofType:@"spx"];
+//    NSString *outfilePath = [NSHomeDirectory() stringByAppendingFormat:@"/Documents/decode1.wav"];
+    //    [decoder decodeInFilePath:infilePath outFilePath:outfilePath];
+    SpeexDecoder *decoder = [[[SpeexDecoder alloc] initWithEncodedFile:infilePath delegate:self] autorelease];
+    
+    [decoder start];
+
+}
+
 
 - (void)viewDidUnload
 {
